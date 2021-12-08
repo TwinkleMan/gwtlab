@@ -1,0 +1,73 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif
+}
+
+.buttonsTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userListBox {
+    font-size: 14pt;
+    color: black;
+}
+
+.sendButton {
+    font-size: 14pt;
+    color: black;
+    background: lightgray;
+    border-radius:6px 6px 6px 6px;
+}
+
+.closeButton {
+    font-size: 14pt;
+    color: black;
+    background: lightgray;
+    border-radius:6px 6px 6px 6px;
+}
+
+.gwt-DialogBox .Caption {
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gwt-DialogBox .Caption:after {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid darkgray;
+}
+
+.gwt-DialogBox {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 13pt 13pt;
+    border: 13px solid lightgray;
+    border-radius:6px 6px 6px 6px;
+    -moz-border-radius:6px;
+    background: lightgray;
+}
+
+.gwt-DialogBox .dialogContent {
+    background: white;
+}
+
+.dialogVPanel {
+    font-family: arial, sans-serif;
+    font-size: 14pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.serverResponseLabelError {
+    color: red;
+}
